@@ -12,17 +12,17 @@ const Hero = () => {
   const SOCIAL = [
     {
       id: 1,
-      link: "Https://www.google.com",
+      link: "https://www.instagram.com/_alvarohh_/",
       icon: <FaInstagram />,
     },
     {
       id: 2,
-      link: "Https://www.google.com",
+      link: "https://www.facebook.com/cabrosolitario/",
       icon: <FaFacebook />,
     },
     {
       id: 3,
-      link: "Https://www.google.com",
+      link: "https://www.linkedin.com/in/alvarocc96/",
       icon: <FaLinkedin />,
     },
   ];
