@@ -5,7 +5,7 @@ import {
   FaLinkedin,
   FaArrowDown,
 } from "react-icons/fa";
-import avatar from "../assets/profile_img.png";
+import avatar from "../assets/profile_img.svg";
 import {Animated} from "react-animated-css";
 
 const Hero = () => {
