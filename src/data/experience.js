@@ -8,7 +8,7 @@ const experience = [
     icon: <FontAwesomeIcon icon={faComputer} />,
     job: "Professional Practice",
     description:
-      "Development and implementation of a module that allows the evaluation of railway operators through a existing system, the system was made with OctoberCMS, based on the PHP Laravel Framework, with a database MySQL.",
+      "Development and implementation of a module that allows the evaluation of railway operators through a existing system. The system was made with OctoberCMS, based on the PHP Laravel Framework, with a database MySQL.",
   },
   {
     name: "HOSPITAL REGIONAL DE ANTOFAGASTA.",
@@ -16,7 +16,7 @@ const experience = [
     icon: <FontAwesomeIcon icon={faLaptopCode} />,
     job: "Project title",
     description:
-      "Development of a system for the administration and management of the list waiting for the cardiology area through a web page, made using the Asp.NET Core MVC framework and database SQLServer/SQlite data.",
+      "Development of a system for the administration and management of the list waiting for the cardiology area through a web page, made using the Asp.NET Core MVC framework and SQLServer/SQlite database.",
   },
   {
     name: "SEREMI DE SALUD ANTOFAGASTA.",
