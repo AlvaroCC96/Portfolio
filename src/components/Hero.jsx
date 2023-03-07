@@ -15,7 +15,7 @@ const Hero = () => {
     },
     {
       id: 2,
-      link: "https://www.facebook.com/cabrosolitario/",
+      link: "https://www.facebook.com/alvarolucascc96/",
       icon: <FaFacebook />,
     },
     {
