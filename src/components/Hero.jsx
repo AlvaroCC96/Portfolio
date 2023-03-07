@@ -3,10 +3,8 @@ import {
   FaInstagram,
   FaFacebook,
   FaLinkedin,
-  FaArrowDown,
 } from "react-icons/fa";
 import avatar from "../assets/profile_img.svg";
-import {Animated} from "react-animated-css";
 
 const Hero = () => {
   const SOCIAL = [
@@ -34,7 +32,7 @@ const Hero = () => {
   });
 
   return (
-    <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
+    
     <section className="flex flex-col justify-start items-center p-5 text-center">
       <h2 className="text-5xl text-rose-600 uppercase font-bold">
         Álvaro Lucas Castillo Calabacero
@@ -62,7 +60,7 @@ const Hero = () => {
       </div>
 
       {/* social icons */}
-      <div className="flex justify-evenly pt-8 lg:py-8 text-3xl w-full md:w-1/3">
+      <div className="flex justify-evenly pt-8 lg:pt-10 text-3xl w-full md:w-1/3">
         {SOCIAL.map(({ id, link, icon }) => (
           <a
             href={link}
@@ -77,7 +75,7 @@ const Hero = () => {
       </div>
       
     </section>
-    </Animated>
+    
   );
 };
 

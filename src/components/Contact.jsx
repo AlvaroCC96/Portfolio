@@ -4,7 +4,7 @@ import Section from "./common/Section";
 const Contact = () => {
   return (
     <Section title="Contact 📞">
-      <div className="flex flex-col items-center justify-center gap-8 text-center">
+      <div className="flex flex-col pt-4items-center justify-center gap-8 text-center">
         <div>
           <p className="max-w-s md:max-w-lg font-extralight">
             I would love to connect with you over a cup of coffee and have a
